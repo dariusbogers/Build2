@@ -38,9 +38,9 @@ def getLogicInfo():
 def distanceString():
     distance = getDistance(high, low)
     if distance < 1000:
-        print('The distance is ' + str(distance/10) + 'cm')
+        return('The distance is ' + str(distance/10) + 'cm')
     else:
-        print('The distance is ' + str(distance/1000) + 'm')
+        return('The distance is ' + str(distance/1000) + 'm')
 
 def checkheader():
     getread()
